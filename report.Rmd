@@ -1,0 +1,9 @@
+---
+title: "What's Your Name?"
+subtitle: "Minimal Reproducible Example"
+output: pdf_document
+params:
+  name: NA
+---
+
+### My name is `r params$name`.
